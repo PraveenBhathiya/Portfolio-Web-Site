@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/me3.png" alt="Me" class="background-image">
+            <div class="container">
+                <nav >
+                    <img src="images/nametag1.png" class="nametag" alt="Nametag">
+                    
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Portfolio</a></li>
+                        <li><a href="#achievement">Achievements</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>AWS Enthusiat | Cloud Computing | System Engineering | Networking</p>
+                    <h1>Hello, I'm <span>Praveen </span><br>Bhathiya.</h1>
+                </div>
+            </div>
+        </div>
+<!---------------about-------------------->
+
+        <div id="about">
+            <br/><br/>
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/me5.jpeg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub">About Me</h1>
+                        <p> I am Praveen Bhathiya, a third-year undergraduate in Electrical and Information Engineering at the University of Ruhuna, Faculty of Engineering.
+                            My passion lies in cloud computing and system engineering, where I am constantly learning and applying new details to develop my career.
+                            I am a quick learner with a keen interest in exploring and integrating emerging technologies. 
+                            I aspire to build a career focused on creating scalable, secure, and efficient cloud infrastructures, contributing to innovative projects, 
+                            and driving technological advancements in the industry.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                        </div>  
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>2008-2016</span><br/>Dharmapala College Bandarawela</li>
+                                <li><span>2017-2019</span><br/>Bandarawela Central College</li>
+                                <li><span>2020-2025</span><br/>Faculty of Engineering,<br/>University of Ruhuna</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>CCNA Networking</span><br/>Certified in CCNA networking with a strong understanding of 
+                                          network fundamentals and protocols.</li>
+                                <li><span>Linux</span><br/>Competent in using Linux for system administration and development.</li>
+                                <li><span>Cloud Computing</span><br/>Passionate about designing and implementing cloud solutions to optimize performance and scalability.</li>
+                                <li><span>AWS</span><br/>Experienced in leveraging AWS services for cloud computing solutions.</li>
+                                <li><span>Kubernetes</span><br/>Knowledgeable in orchestrating containerized applications with Kubernetes.</li>
+                                <li><span>Docker</span><br/> Skilled in containerizing applications using Docker for consistency and scalability.</li>
+                                <li><span>Web Development (React, HTML, CSS, JavaScript)</span><br/>Skilled in building dynamic and responsive web applications using React, HTML, CSS, and JavaScript.</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="experiences">
+                            <ul>
+                                <li><span>2022-2023</span><br/>Executive Committe Member of EIES</li>
+                                <li><span>2023-2024(3 months)</span><br/>Trainee Engineer at Sanota Pvt.Ltd</li>
+                                <li><span>2024</span><br/>Member of Technical Team,<br/> Eminence 4.0</li>
+                            </ul>
+                        </div>  
+                    </div>       
+                </div>
+            </div>
+        </div>
+<!-----------Projects----------------->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub">Projects</h1> 
+        <div class="project-list">
+            <div class="work">
+                <img src="images/software.jpeg">
+                <div class="layer">
+                    <h3>undergraduate Projects Management System(pending...)</h3>
+                    <p>Our Undergraduate Project Management System is a streamlined platform 
+                        designed for final year students to submit project proposals, receive 
+                        supervisor assignments, track progress, and evaluate milestones</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.png">
+                <div class="layer">
+                    <h3>Full Responsive E-Commerce Web-Site</h3>
+                    <p>I developed a fully responsive e-commerce website using the MERN stack 
+                        (MongoDB, Express.js, React, Node.js). This platform provides a seamless 
+                        shopping experience across devices, featuring robust product listings, 
+                        secure user authentication, streamlined checkout processes, and real-time updates.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/w2.png">
+                <div class="layer">
+                    <h3>Wiring a Control Panel</h3>
+                    <p>During my training, I successfully wired an entire control panel from scratch,
+                        despite having no prior experience. This hands-on project required meticulous 
+                        planning and precise execution, resulting in a fully functional panel that met all operational standards.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---Achievement-->
+
+<div id="achievement">
+    <div class="container">
+        <h1 class="sub">Achievement</h1> 
+        <div class="Achievement-list">
+            <div class="work">
+                <img src="images/aws.jpeg">
+                <div class="layer">
+                    <h3>AWS Certified Advanced Networking</h3>
+                    <p>I successfully completed the AWS Certified Advanced 
+                        Networking course, equipping myself with advanced 
+                        skills in designing and implementing scalable network 
+                        solutions on the AWS platform.</p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cisco.jpeg">
+                <div class="layer">
+                    <h3>CISCO Networking Basics</h3>
+                    <p>I gained foundational knowledge and practical skills in 
+                       Cisco Networking Basics, which included understanding essential 
+                       network concepts, configuring Cisco routers and switches, troubleshooting network connectivity issues, 
+                       and optimizing network performance.</p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cloud.jpeg">
+                <div class="layer">
+                    <h3>Fundamentals of Cloud Computing</h3>
+                    <p>I acquired comprehensive knowledge and skills in the Fundamentals 
+                        of Cloud Computing course, covering essential concepts such as 
+                        cloud architecture, deployment models (public, private, hybrid), 
+                        service models, virtualization, and scalability.</p>
+                   
+                </div>   
+            </div>
+            <div class="work">
+                <img src="images/ccna.jpeg">
+                <div class="layer">
+                    <h3>CCNA Networking Essentials</h3>
+                    <p>Completing the CCNA Networking Essentials course provided me with 
+                        foundational knowledge and practical skills in computer networking. 
+                        I gained expertise in network protocols, subnetting, routing, switching, 
+                        and network security essentials. </p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/linux.jpeg">
+                <div class="layer">
+                    <h3>Linux & Shell Scripting</h3>
+                    <p>Completing the Linux & Shell Scripting course equipped me with essential 
+                        skills in Linux operating system fundamentals and automation through shell 
+                        scripting. I gained proficiency in navigating Linux environments, managing 
+                        files and directories and utilizing shell commands effectively.</p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/aws1.jpeg">
+                <div class="layer">
+                    <h3>Job Roles in the Cloud</h3>
+                    <p>Completing the course on job roles in the cloud equips me with a comprehensive 
+                        understanding of various career paths within cloud computing. I gained insights 
+                        into roles such as Cloud Architect, Cloud Engineer, DevOps Engineer.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/react.jpeg">
+                <div class="layer">
+                    <h3>ReactJs for Beginners</h3>
+                    <p>Completing the ReactJs for Beginners course provided me with a solid foundation in building 
+                        dynamic and responsive web applications using React. I learned the core concepts of React, 
+                        including components, state, props, and lifecycle methods.</p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/react1.jpeg">
+                <div class="layer">
+                    <h3>Mastering React</h3>
+                    <p>Completing the Mastering React course equipped me with advanced skills in building sophisticated 
+                        and high-performance web applications using React.I gained deep insights into React's core principles, 
+                        advanced state management and performance optimization techniques.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!------contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>praveenbandara421@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>070-4831730</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/Praveen Bhathiya"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Praveen Bhathiya"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instergram.com/Praveen Bhathiya"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/Praveen Bhathiya"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required> 
+                   <input type="Email" name="email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<div class="copyright">
+    <p>Copyright © Praveen.</p>
+</div>
+
+        <script>
+           var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents = document.getElementsByClassName("tab-contents");
+
+           function opentab(tabname){
+               for(tablink of tablinks){
+                   tablink.classList.remove("active-link");
+               }
+               for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+               }
+               event.currentTarget.classList.add("active-link");
+               document.getElementById(tabname).classList.add("active-tab");
+           }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = '0';
+            }
+
+            function closemenu(){
+                sidemenu.style.right = '-200px';
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyHDv4vN5myuiwtQuEWUnUiPFaWbzdbITChN9TY1L18A5t-Cf6bxQVH7PjS6PLiBAX9MA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+
+
+</html>
